@@ -1,0 +1,69 @@
+.Container{
+    margin: 0;
+    border-right: solid;
+    border-left: solid;
+    border-color: #abb3be;
+    width: 700px;
+    height: 300px;
+    position: absolute;
+    left: 30%;
+    top:40px;
+    
+}
+.Container h2{
+    text-align: center;
+}
+.main{
+    border-top: solid;
+   border-color: grey;
+   border-width: 1px;
+   opacity: 0.3;
+  justify-content: center;
+}
+.main h3{
+    text-align: center ;
+}
+.otp{
+    display: flex;
+}
+.otp input{
+    width: 40px;
+    border: none;
+    margin: 15px;
+    position: relative;
+    left: 90px;
+   border-bottom: solid;
+   border-color:black;
+   outline: none;
+   border-width: 1.5px;
+  
+}
+
+.btn1 button{
+   border: none;
+   outline: none;
+   color: #7a96c4;
+   background:none;
+   font-size: 16px;
+   margin-left: 100px;
+   font-weight: bold;
+}
+#space{
+   position: absolute;
+   left: 320px;
+}
+.btn2 button{
+    background-color:#6db58a;
+    border-radius: 16px;
+    border: none;
+    position: absolute;
+    left: 100px;
+    margin: 50px;
+    width: 320px;
+    height: 40px;
+    color: white;
+    font-size: large;
+}
+.btn2 button:hover{
+    background-color: #7a96c4;
+}
